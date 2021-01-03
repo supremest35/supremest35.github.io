@@ -1,0 +1,148 @@
+---
+layout: post
+title: "[자바] #1. 개발환경 구축"
+subtitle: "JDK, Eclipse"
+categories: study
+tags: java
+---
+
+
+
+### 자바 개발환경 구축(JDK - Java Development Kit 설치)
+
+---
+
+* java.sun.com
+
+  아래의 사이트에서 Java SE 클릭
+
+  ![oracle.java.com](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\oracle.java.com.png)
+
+
+
+* Java Platform, Standard Edition 11 클릭
+
+  ![javaSE11](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\javaSE11.png)
+
+  
+
+* JDK Download 클릭
+
+  ![jdkDownload](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\jdkDownload.png)
+
+* 본인 컴퓨터 OS에 맞는 Java SE Development Kit 설치
+
+  
+
+* 로그인 후 설치
+
+
+
+### 시스템 환경변수 설정
+
+---
+
+* 제어판 - 시스템 환경변수
+
+  ![systemVariable](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\systemVariable.png)
+
+  
+
+* 고급 탭 - 환경변수 클릭
+
+  ![systemProperty](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\systemProperty.png)
+
+  
+
+* 새로 만들기 클릭
+
+  ![newVariable](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\newVariable.png)
+
+* 시스템 변수 설정
+
+  변수 이름 : JAVA_HOME
+
+  변수값 : jdk설치경로￦jdk설치한 버전
+
+  ![variable](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\variable.png)
+
+* Path 시스템 변수 편집
+
+  ![editPath](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\editPath.png)
+
+  
+
+  ![editSystemVar](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\editSystemVar.png)
+
+
+
+### 통합 개발환경(IDE : Intergrated Development Environment) 설치
+
+----
+
+* 이클립스 다운로드 페이지(https://www.eclipse.org/downloads/)
+
+  
+
+  ![eclipseDownload](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\eclipseDownload.png)
+
+  
+
+  ![downloadEclipse](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\downloadEclipse.png)
+
+  
+
+*  Eclipse IDE for Enterprise Java Developers 항목 선택 후 설치
+
+  ![IDEforEnterpriseJava](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\IDEforEnterpriseJava.png)
+
+
+
+### 프로젝트 만들기
+
+---
+
+
+
+* 이클립스 실행 File - New - Other
+
+  ![newProject](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\newProject.png)
+
+  
+
+* Java Project 선택 - Next 선택
+
+  ![newJavaProject](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\newJavaProject.png)
+
+  
+
+* 프로젝트 이름 지정 후 Finish 클릭
+
+  ![newJavaProject2](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\newJavaProject2.png)
+
+  
+
+* 자바 클래스 파일 만들기
+
+  src 클릭 - Ctrl + n 도 가능
+
+  ![newJavaClass](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\newJavaClass.png)
+
+  
+
+  class 이름 설정 후 Finish (class 이름의 첫번째는 대문자로 적는다.)
+
+  ![newJavaClass2](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\newJavaClass2.png)
+
+
+
+글자 출력하기
+
+- main 타이핑 - Ctrl + Spacebar - main method 선택
+
+  ![mainMethod](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\mainMethod.png)
+
+  
+
+- ![run](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\run.png)
+

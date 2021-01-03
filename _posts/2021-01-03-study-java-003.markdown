@@ -1,0 +1,49 @@
+---
+layout: post
+title: "[자바] #2. 인코딩 설정"
+subtitle: "utf-8 encoding"
+categories: study
+tags: java
+---
+
+### 인코딩 방식 설정
+
+---
+
+한글이 깨지는 현상을 없애기 위해 환경설정에서 텍스트 인코딩 방식을 변경한다.
+
+
+
+* Window - Preferences 선택
+
+  ![preferences](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\preferences.png)
+
+  
+
+* encoding 검색 - Workspace 클릭 - Text file encoding에서 UTF-8로 변경
+
+  ![encoding(workspace)](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\encoding(workspace).png)
+
+
+
+* CSS Files 선택 - Encoding에서 UTF-8로 변경
+
+  ![CSS(encoding)](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\CSS(encoding).png)
+
+
+
+* HTML Files 선택 - Encoding에서 UTF-8로 변경
+
+  ![HTML(encoding)](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\HTML(encoding).png)
+
+
+
+* JSP Files 선택 - Encoding에서 UTF-8 선택
+
+  ![JSP(encoding)](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\JSP(encoding).png)
+
+
+
+* XML Files 선택 - Encoding 에서 UTF-8 선택
+
+  ![XML(encoding)](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\XML(encoding).png)
