@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[C언어] #.0 프로그래밍"
+title: "[C언어] #0. 프로그래밍"
 subtitle: "컴퓨터와 대화"
 categories: study
 tags: c
