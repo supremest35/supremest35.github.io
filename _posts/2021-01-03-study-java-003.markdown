@@ -16,34 +16,35 @@ tags: java
 
 * Window - Preferences 선택
 
-  ![preferences](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\preferences.png)
+  ![preferences](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/preferences.png?raw=true)
 
   
 
 * encoding 검색 - Workspace 클릭 - Text file encoding에서 UTF-8로 변경
 
-  ![encoding(workspace)](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\encoding(workspace).png)
+  ![encoding(workspace)](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/encoding(workspace).png?raw=true)
 
 
 
 * CSS Files 선택 - Encoding에서 UTF-8로 변경
 
-  ![CSS(encoding)](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\CSS(encoding).png)
+  ![CSS(encoding)](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/CSS(encoding).png?raw=true)
 
 
 
 * HTML Files 선택 - Encoding에서 UTF-8로 변경
 
-  ![HTML(encoding)](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\HTML(encoding).png)
+  ![HTML(encoding)](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/HTML(encoding).png?raw=true)
 
 
 
 * JSP Files 선택 - Encoding에서 UTF-8 선택
 
-  ![JSP(encoding)](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\JSP(encoding).png)
+  ![JSP(encoding)](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/JSP(encoding).png?raw=true)
 
 
 
 * XML Files 선택 - Encoding 에서 UTF-8 선택
 
-  ![XML(encoding)](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\XML(encoding).png)
+  ![XML(encoding)](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/XML(encoding).png?raw=true)
+

@@ -16,19 +16,19 @@ tags: java
 
   아래의 사이트에서 Java SE 클릭
 
-  ![oracle.java.com](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\oracle.java.com.png)
+  ![oracle.java.com](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/oracle.java.com.png?raw=true)
 
 
 
 * Java Platform, Standard Edition 11 클릭
 
-  ![javaSE11](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\javaSE11.png)
+  ![javaSE11](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/javaSE11.png?raw=true)
 
   
 
 * JDK Download 클릭
 
-  ![jdkDownload](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\jdkDownload.png)
+  ![jdkDownload](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/jdkDownload.png?raw=true)
 
 * 본인 컴퓨터 OS에 맞는 Java SE Development Kit 설치
 
@@ -44,19 +44,19 @@ tags: java
 
 * 제어판 - 시스템 환경변수
 
-  ![systemVariable](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\systemVariable.png)
+  ![systemVariable](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/systemVariable.png?raw=true)
 
   
 
 * 고급 탭 - 환경변수 클릭
 
-  ![systemProperty](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\systemProperty.png)
+  ![systemProperty](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/systemProperty.png?raw=true)
 
   
 
 * 새로 만들기 클릭
 
-  ![newVariable](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\newVariable.png)
+  ![newVariable](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/newVariable.png?raw=true)
 
 * 시스템 변수 설정
 
@@ -64,15 +64,15 @@ tags: java
 
   변수값 : jdk설치경로￦jdk설치한 버전
 
-  ![variable](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\variable.png)
+  ![variable](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/variable.png?raw=true)
 
 * Path 시스템 변수 편집
 
-  ![editPath](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\editPath.png)
+  ![editPath](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/editPath.png?raw=true)
 
   
 
-  ![editSystemVar](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\editSystemVar.png)
+  ![editSystemVar](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/editSystemVar.png?raw=true)
 
 
 
@@ -84,17 +84,17 @@ tags: java
 
   
 
-  ![eclipseDownload](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\eclipseDownload.png)
+  ![eclipseDownload](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/eclipseDownload.png?raw=true)
 
   
 
-  ![downloadEclipse](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\downloadEclipse.png)
+  ![downloadEclipse](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/downloadEclipse.png?raw=true)
 
   
 
 *  Eclipse IDE for Enterprise Java Developers 항목 선택 후 설치
 
-  ![IDEforEnterpriseJava](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\IDEforEnterpriseJava.png)
+  ![IDEforEnterpriseJava](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/IDEforEnterpriseJava.png?raw=true)
 
 
 
@@ -106,19 +106,19 @@ tags: java
 
 * 이클립스 실행 File - New - Other
 
-  ![newProject](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\newProject.png)
+  ![newProject](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/newProject.png?raw=true)
 
   
 
 * Java Project 선택 - Next 선택
 
-  ![newJavaProject](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\newJavaProject.png)
+  ![newJavaProject](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/newJavaProject.png?raw=true)
 
   
 
 * 프로젝트 이름 지정 후 Finish 클릭
 
-  ![newJavaProject2](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\newJavaProject2.png)
+  ![newJavaProject2](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/newJavaProject2.png?raw=true)
 
   
 
@@ -126,13 +126,13 @@ tags: java
 
   src 클릭 - Ctrl + n 도 가능
 
-  ![newJavaClass](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\newJavaClass.png)
+  ![newJavaClass](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/newJavaClass.png?raw=true)
 
   
 
   class 이름 설정 후 Finish (class 이름의 첫번째는 대문자로 적는다.)
 
-  ![newJavaClass2](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\newJavaClass2.png)
+  ![newJavaClass2](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/newJavaClass2.png?raw=true)
 
 
 
@@ -140,9 +140,9 @@ tags: java
 
 - main 타이핑 - Ctrl + Spacebar - main method 선택
 
-  ![mainMethod](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\mainMethod.png)
+  ![mainMethod](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/mainMethod.png?raw=true)
 
   
 
-- ![run](C:\Users\supre\Desktop\GitHub Blog\supremest35.github.io-master\assets\img\run.png)
+- ![run](https://github.com/supremest35/supremest35.github.io/blob/main/assets/img/run.png?raw=true)
 
