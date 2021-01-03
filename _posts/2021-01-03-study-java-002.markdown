@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[자바] #1. 개발환경 구축"
+title: "[자바] #2. 개발환경 구축"
 subtitle: "JDK, Eclipse"
 categories: study
 tags: java

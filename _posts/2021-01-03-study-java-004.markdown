@@ -1,0 +1,53 @@
+---
+layout: post
+title: "[자바] #4. 자바파일 작성 전"
+subtitle: "알아둘 사항"
+categories: study
+tags: java 
+---
+
+### 첫 진입점은 main 메소드
+
+----
+
+```java
+public class Hello {
+	public static void main(String... args) {
+		System.out.println("Hello, java!");
+	}
+}
+```
+
+- 가독성을 높이기 위해 중괄호 앞에는 한 칸 띄운다.
+- 첫 진입점은 main 메소드
+  - main 메소드는 항상 위의 코드처럼 적어야 JVM에서 실행된다.
+
+* 위 프로그램은 Hello라는 이름을 가진 공개된(public) 설계도(class)
+* class의 이름은 항상 대문자로 시작
+* JVM이 실행파일을 메모리에 로딩하고 첫 번째로 실행시키는 main 메소드를 구현하낟.
+* 메소드(Method)는 수행문을 포함한다. (수행문은 세미콜론(;)으로 끝나며, 메소드 안에서만 적는다.)
+* 위의 프로그램이 소스파일 (.java 파일 / 개발자용 설계도)
+* 반드시 public class의 이름과 똑같이 .java 파일로 저장되어야 실행된다.
+  * 대소문자도 똑같아야한다.
+* .java 파일은 소스파일, .class파일은 실행파일
+* 소스파일의 확장자명은 어떠한 것도 올 수 있기 때문에 확장자명을 꼭 .java로 적어줘야하낟.
+  * 실행파일은 무조건 .class로 실행되기 때문에 적을 필요가 없다.
+
+
+
+```java
+public class Hello {
+	public static void main(String... args) {
+		System.out.println("Hello, java!");
+		System.out.println(41 + 36);
+		System.out.println(1835 + 56436);
+	}
+}
+```
+
+* System								:	내 컴퓨터 (java에서 제공해주는 System 이름의 class파일)
+* out										:    표준출력장치(모니터)
+* println("출력내용")				: 	내용 출력하고 줄을 바꾼다.
+
+* 곱하기, 나누기는 붙여쓰고, 더하기, 빼기는 띄어쓰기(먼저 계산하는 수식은 붙여쓰기)
+

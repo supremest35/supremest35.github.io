@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[자바] #2. 인코딩 설정"
+title: "[자바] #3. 인코딩 설정"
 subtitle: "utf-8 encoding"
 categories: study
 tags: java
