@@ -48,7 +48,7 @@ google_fonts:        Lato
 google_analytics:    G-4TLL6T9H12
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:    supremest35-github-io.disqus.com
+disqus_shortname:    supremest35-github-io
 
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           '&copy; 2020. by supremest35'
