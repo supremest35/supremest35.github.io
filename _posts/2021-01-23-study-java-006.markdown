@@ -1,0 +1,107 @@
+---
+layout: post
+title: "[자바] #6-1. 변수와 자료형"
+subtitle: "변수 선언(변수 만들기)"
+categories: study
+tags: java
+---
+
+### 변수 선언
+
+----
+
+변수를 만들 때는 그 변수에 담을 자료의 데이터 타입을 적고 그 뒤에 변수 이름을 적는다.
+
+> 자료형(데이터 타입) 변수명;
+>
+> int mathScore;
+>
+> double average;
+
+
+
+#### 변수이름을 정할 때 규칙
+
+* 변수의 이름은 문자나 '_', '$'의 특수문자로 시작한다.
+  * 숫자로 시작할 수 없다.
+  * 가능하면 영문자로 시작하게끔 만들자.
+* 첫 글자가 아니라면 위에 언급한 특수문자나 숫자로 구성할 수 있다.
+* 대소문자를 구분하며, 공백은 포함할 수 없다.
+
+
+
+#### 변수명 관례
+
+* 변수이름은 소문자로 시작한다.
+* 두 개 이상의 단어를 합칠 때, 첫 단어는 소문자로 적고 두 번째 단어의 시작문자는 대문자로 적는다.
+  * 카멜 표기법(camel expression)
+    * ex) int productNo;, String produceName;
+
+* 변수명은 식별자이므로 자바의 예약어를 사용할 수 없다.
+
+  * [^식별자]: 변수나 상수, 메소드, 사용자가 정의하는 클래스 등을 구분할 수 있는 이름<br>
+    [^예약어]:  자바에서 이미 문법적인 용도로 사용되고 있는 언어. 특유의 규칙에 따라 의미가 고정되어 있다.
+
+
+
+#### 변수만들기
+
+----
+
+```java
+public class Hello {
+	public static void main(String... args) {
+		// 성적을 담는 정수형 변수 만들기
+		// 타입 변수명;
+		int koreanScore;
+		int englishScore;
+		int mathScore;
+		
+		
+		// 생성된 변수에 값 대입하기
+		// 변수를 사용할 때는 타입을 표기하지 않는다.
+		koreanScore = 90;
+		englishScore = 88;
+		mathScore = 80;
+		
+		// 변수에 저장된 값 사용하기
+		// (컴퓨터 화면에 저장된 값 출력하기)
+		System.out.println(koreanScore);
+		System.out.println(englishScore);
+		System.out.println(mathScore);
+		
+		// 실수형 변수 만들고 값 대입하기
+		float depositRate = 0.01f;
+		double exchangeRate = 1205.6;
+		
+		// 저장된 값 사용
+		System.out.println(depositRate);
+		System.out.println(exchangeRate);
+		
+		// 문자형 변수 선언 및 초기화
+		char bloodType1 = 'A';
+		char bloodType2 = 66;
+		char bloodType3 = '/u0043';
+		
+		System.out.println(bloodType1);
+		System.out.println(bloodType2);
+		System.out.println(bloodType3);
+		
+		// 논리형 변수 선언 및 초기화
+		boolean passed = true;
+		boolean isMarried = false;
+		
+		System.out.println(passed);
+		System.out.println(isMarried);
+		
+		// 문자열 값을 담는 변수 선언 및 초기화
+		String name = "홍길동";
+		String email = "hong@gmail.com";
+		
+		System.out.println(name);
+		System.out.println(email);
+		
+	}
+}
+```
+
