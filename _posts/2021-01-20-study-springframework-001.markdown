@@ -65,7 +65,7 @@ tags: springframeworkㄵ
 
 * 이클립스 실행
 * Window - Prefercences - Maven - User Settings
-  * Global Settings의 값을 conf 폴더의 settiong.xml 경로로 변경 
+  * Global Settings의 값을 conf 폴더의 setting.xml 경로로 변경 
 
 
 
@@ -75,7 +75,7 @@ tags: springframeworkㄵ
 
 따로 DTD를 설정해주면 조금 간단하게 mybatis xml 템플릿을 가져올 수 있다.
 
-* Window - Preferences - XML - XML Catalog - User Specified Enrties - Add
+* Window - Preferences - XML - XML Catalog - User Specified Entries - Add
 *  config 추가
   * Location : http://mybatis.org/dtd/mybatis-3-config.dtd
   * Key type : Public ID

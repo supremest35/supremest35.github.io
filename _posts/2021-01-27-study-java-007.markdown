@@ -1,0 +1,87 @@
+---
+layout: post
+title: "[자바] #7. 정수와 실수의 계산"
+subtitle: "형변환"
+categories: study
+tags: java
+---
+
+### 형변환
+
+----------
+
+- 자동 형변환
+  - 연산에 참여하는 데이터 타입이 다를 때 같은 타입의 값으로 변환하는 행위
+  - 컴파일러가 알아서 형변환을 처리 
+
+* 수동 형변환(Casting)
+  * 정밀도가 높은 타입의 값을 정밀도가 낮은 타입의 값으로 변환하는 것.
+  * 큰 데이터 타입의 값을 작은 데이터 타입의 값으로 변환하는 것.
+  * 개발자가 임의의 타입으로 바꾸고 싶을때
+
+
+
+#### 정수, 실수 계산
+
+----------
+
+작은 데이터 타입의 값은 큰 데이터 타입의 값으로 자동 형변환.<br> (but, 반대는 되지 않음 ex. 4.0 + 5 = 9.0)
+
+정밀도가 낲은 타입의 값을 정밀도가 높은 타입의 값으로 변환하는 것은 가능
+
+
+
+```
+public class CastionApp {
+	public static void main(String ... args) {
+		// 형변환
+		// 자동 형변환
+		// 크기가 작은 타입의 값을 크기가 큰 타입의 값으로 변환하는 것
+		int a = 10;
+		long b = a;		// int타입의 값을 long타입의 변수에 대입
+		
+		// 정밀도가 낮은 타입의 값을 정밀도가 큰 타입의 값으로 변환하는 것
+		float c = a;	// int타입의 값을 float타입의 변수에 대입
+		double d = a;	// int타입의 값을 double타입의 변수에 대입
+		
+		// 값 출력
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		
+		// 연산에 참여하는 값의 타입이 다를 때 같은 타입으로 자동 형변환
+		// 큰 데이터 타입의 값으로, 정밀도가 높은 타입의 값으로 자동 형변환
+		long balance = 50000000L;
+		double rate = 0.01;
+		// balance*rate의 결과값이 double로 자동형변환 되어 interest에 대입
+		double interest = balance*rate;
+		// 값 출력
+		System.out.println(interest);
+
+		// 수동 형변환
+		long x = 100000L;
+		int x1 = (int)x;
+
+		double y = 3.14;
+		int y2 = (int) y;
+		
+		int totalScore = 315;
+		int count = 4;
+		double average1 = totalScore/count;	
+		// totalScore 변수에 저장된 값의 타입이 변환되는 것이 아니다.
+		// totalScore 변수에서 가져온 값의 타입을 double 타입으로 바꾸는 것이다.
+		double average2 = (double) totalScore/count;		// 315.0/4
+		double average3 = totalScore/(double) count;		// 315/4.0
+		double average4 = (double) (totalScore/count);		// (double) (315/4)
+
+		System.out.println(average1);
+		System.out.println(average2);
+		System.out.println(average3);
+		System.out.println(average4);
+
+
+	}
+}
+```
+
