@@ -110,6 +110,21 @@
 
 {% include page-style.html %}
 
+{% comment %}
+  front matter 에 `no_sidebar: true` 를 두면 왼쪽 사이드바를 숨기고 본문을
+  가운데로 모은다. 블로그 글이 아니라 따로 서 있어야 하는 페이지에 쓴다
+  (코트리그 소개·방침·약관). 테마 파일은 건드리지 않는다.
+
+  `#_main.content` 의 margin-left: 336px 이 본문을 사이드바 옆으로 밀어 두므로,
+  사이드바만 숨기면 왼쪽이 비어 버린다. 그래서 둘을 같이 손본다.
+{% endcomment %}
+{% if page.no_sidebar %}
+<style>
+  #_yDrawer, .sidebar, .navbar { display: none !important; }
+  #_main.content { margin-left: auto !important; margin-right: auto !important; }
+</style>
+{% endif %}
+
 <noscript>
   <link rel="stylesheet" href="{{ style_url | absolute_url }}">
   {% assign font = site.font | default:"'Sans-serif'" %}

@@ -2,6 +2,7 @@
 layout: page
 title: 이용약관
 menu: false
+no_sidebar: true
 ---
 
 <!-- 이 파일은 courtleague 레포의 docs/ 에서 생성됩니다. 직접 고치지 마세요.
