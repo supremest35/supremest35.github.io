@@ -39,7 +39,7 @@ menu: false
 ## 문의와 약관
 
 - 문의: [oncourt.service@gmail.com](mailto:oncourt.service@gmail.com)
-- [개인정보처리방침](https://adaptable-soursop-4cb.notion.site/3c9781334468809fafd2d60cd3d6df7c)
-- [이용약관](https://adaptable-soursop-4cb.notion.site/3cb78133446880d593d8fec943abf760)
+- [개인정보처리방침](/courtleague/privacy/)
+- [이용약관](/courtleague/terms/)
 
 안드로이드에서 쓸 수 있습니다. iOS 는 아직 준비 중입니다.
