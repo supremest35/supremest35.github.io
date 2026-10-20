@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.oncourt",
+      "sha256_cert_fingerprints": [
+        "D0:C5:A2:B4:93:B8:53:E8:8E:ED:08:68:61:6C:9D:B2:1B:09:A6:A6:24:0A:71:94:43:6F:BB:6A:85:6C:FF:4E"
+      ]
+    }
+  }
+]
